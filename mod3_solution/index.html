@@ -1,71 +1,96 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-with, initial-scale=1">
-	<title>China Bistrot</title>
-	<link rel="stylesheet"  href="bootstrap.min.css">
-	<link rel="stylesheet"  href="style.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
-</head>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
 <body>
-	<header>
-		<div>
-		<nav class="navbar navbar-dark">
-        <div class="container-fluid">
-            <a id="home-title" href="#" class="navbar-brand" title="Food LLC"><h1>Food LLC</h1></a>
-            <div id="dp-button" class="d-block d-sm-block d-md-none text-center">
-                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#dropdown-menu" aria-controls="dropdown-menu"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-				</div>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+      
 
-				<div id="collapsable-nav" class="collapse navbar-collapse">
-					<ul id="nav-list" class="nav navbar-nav navbar-right"> 
-						<li>
-							<a href="menu-categories.html">
-							<span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu 	
-							</a> 
-						</li>
-						<li>
-							<a href="#"> 
-								<span class="glyphicon glyphicon-info-sign"></span> <br class="hidden-xs"> About</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="glyphicon glyphicon-certificate"></span> <br class="hidden-xs"> Awards</a>
-						</li>
-						<li id="phone" class="hidden-xs">
-							<a href="tel:90-83-89-19"> 
-								<span>90-83-89-19</span>
-							</a><div> We deliver</div>
-							
-						</li>
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Food, LLC</h1></a>
+          
+          </div>
 
-					</ul>
-
-				</div>
-					
-				
+           <button type="button" class="btn navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false" aria-controls="collapseMenu">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+ 
+        </div>
 
 
-				
-			</div>
+      </div>
+    </nav>
+
+  </header>
+
+  <div id="main-content" class="container-fluid">
+          <!--    For drop down menu -->
+        <div id="collapsable-nav" class="collapse">
+          <div id="collapseMenu" class="menu visible-xs">
+
+          <button type="button" class="btn btn-primary menuItem" data-toggle="collapse" data-target="#section1" aria-expanded="false">
+          <span class="glyphicon glyphicon-hand-right"> Chicken</span></button> 
+          <button type="button" class="btn btn-primary menuItem" data-toggle="collapse" data-target="#section2" aria-expanded="false">
+          <span class="glyphicon glyphicon-hand-right"> Beef</span></button> 
+          <button type="button" class="btn btn-primary menuItem" data-toggle="collapse" data-target="#section3" aria-expanded="false">
+          <span class="glyphicon glyphicon-hand-right"> Sushi</span> </button>      
+       </div>
+      </div><!-- .collapse  -->
 
 
-		</nav>
+    <h2 id="top" class="text-center"> Our Menu </h2>
+  <section id="section1" class="col-md-12 col-sm-12 col-xs-12">
+    <div class="menu3">
+    <p ><h3>Chicken</h3></p>
 
-	</header>
-	
+    <p class="text-justify menuDetails" >Chicken with ketchup. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <br />And again: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! 
+    <br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!<br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!<br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!<br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!<br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!<br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr />
+    <br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr /> <br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr /><br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr /><br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr /><br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr /></p>
+    
+  </div>
+  </section>
+   <p>
+       <a href="#top">Back to Top</a>
+  </p>
+  <section id="section2" class="col-md-12 col-sm-12 col-xs-12">
+    <div class="menu3">
+    <p class="text-center text-capitalize" ><h3 class="text-center text-capitalize">Beef</h3></p>
+    <p class="text-justify menuDetails" >Beef short ribs, medium well. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr /> <br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr /><br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr /><br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!<br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr /> <br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr /><br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr /><br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! This one is not so long :). <hr /></p>
+  </div>
+  </section>
+   <p>
+      <a href="#top">Back to Top</a>
+  </p>
+  <section  id="section3" class="col-md-12 col-sm-12 col-xs-12">
+    <div class="menu3">
+    <p class="text-center text-capitalize"><h3 class="text-center text-capitalize">Shrimp</h3></p>
+    <p class="text-justify menuDetails" >Shrimp with pasta. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr /> <br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr /><br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr /><br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr /> <br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr /><br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr /><br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!<br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr /> <br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr /><br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr /><br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <br />And again : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati! <hr /><span class="glyphicon glyphicon-ok-sign"></span></p>
+  </div>
+  </section>
+  <p>
+     <a href="#top">Back to Top</a>
+  </p>
+ 
+</div>
 
-<script src="jquery-3.6.0min.js"></script>
-<script src="bootstrap.min.js"></script>
-<script src="script.js"></script>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
